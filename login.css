@@ -126,3 +126,27 @@ button:focus {
     font-size: x-small;
   }
 }
+
+#navbar {
+  border-bottom: 2px solid;
+  background-color: white;
+  width: 100%;
+  border-color: #68a7f1;
+  z-index: 1;
+}
+
+.heading {
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-text {
+  margin: 30px 0px 30px 0px;
+}
